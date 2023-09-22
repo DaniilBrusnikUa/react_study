@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.films-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 200px;
+}
+
+.film-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+}
+.hovered {
+  background-color: #000000;
+  color: #ffffff;
+}
